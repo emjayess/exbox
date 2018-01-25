@@ -9,7 +9,7 @@ InboxSDK.load(1, 'sdk_EXBOX_APP_ID_2579956272').then(function(sdk) {
 		// a compose view 
 		composeView.addButton({
 			title: "My Exbox Controller!",
-			iconUrl: '',
+			iconUrl: 'https://raw.githubusercontent.com/emjayess/exbox/master/app/images/mail-inbox.png',
 			onClick: function( event ) {
 				event.composeView.insertTextIntoBodyAtCursor('Helo Exbox');
 			},
